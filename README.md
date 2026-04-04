@@ -34,9 +34,7 @@ Hardware:     RTX 4090 · RTX 2060 · Intel N100 · M4 Pro
 
 ## Currently learning
 
-- Python (CS150B) — first formal CS course
-- Applied AI & IoT Engineering fundamentals
-- Building toward: PyTorch fine-tuning, agentic orchestration, Coral TPU integration
+- Intro to Python — first formal CS course
 
 ---
 
