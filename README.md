@@ -1,41 +1,41 @@
-# Hey, I'm Dylan 👋
+# hey, I'm Dylan
 
-Sophomore studying **Applied AI & IoT Engineering**, transferring to FIU in May 2026. I build things that run locally — no cloud dependency, no shortcuts.
+I'm a full-time sophomore studying Applied AI and IoT Engineering. Currently building a
+privacy-first, fully local smart home system powered by local LLM inference on
+repurposed consumer hardware.
 
----
+## what I'm working on
 
-## What I'm working on
+**[homelab_setup](https://github.com/Cap-Dylan/homelab_setup)** — a multi-node homelab
+running local AI inference, computer vision, and smart home automation with zero cloud
+dependency.
 
-**[homelab_setup](https://github.com/Cap-Dylan/homelab_setup)** — A seven-node homelab built around local AI inference, smart home automation, and IoT experimentation.
+The flagship project is **Jarvis**, an agentic smart home system I built from scratch:
+- Frigate NVR detects occupancy via a security camera
+- A local LLM (llama3.1:8b on an RTX 2060) reasons about what to do
+- Home Assistant executes the decision autonomously
+- I can chat with it naturally through a self-hosted Matrix server and give it commands or ask why it did something
+- Every decision is logged with its reasoning for a full audit trail
 
-The current stack:
-- **Frigate NVR** running on an Intel N100 NAS with hardware QuickSync decode, consuming a Tapo C121 RTSP stream
-- **Home Assistant** on a dedicated always-on node, fully integrated with Frigate via HACS + MQTT — person detection, motion, occupancy sensors all live
-- **Ollama** on an RTX 2060 for local LLM inference (llama3.1:8b, llama3.2:3b), fronted by a **FastAPI wrapper** with `/health`, `/ask`, `/summarize`
-- **Prometheus + Grafana** observability stack across all four nodes including the HA box
-- **AdGuard Home + Tailscale** for privacy-first DNS and remote access
+The whole stack runs on repurposed laptops and a NAS in my apartment. No cloud,
+no subscriptions, no data leaving the network.
 
-Long-term goal: a closed-loop agentic smart home system — Frigate computer vision events feeding into a local LLM orchestrator that drives HA automations. Fine-tuned MobileNetV3/EfficientNet-Lite on the RTX 4090 for resident/delivery/unknown classification.
+## the stack
 
----
+| Layer | What | Where |
+|-------|------|-------|
+| AI inference | Ollama (llama3.1:8b) | MSI GE76, RTX 2060 |
+| Chat server | Continuwuity (Matrix) | MSI GE76 |
+| Orchestration | Python (Flask), systemd | ASUS Vivobook |
+| Monitoring | Prometheus + Grafana | ASUS Vivobook |
+| DNS filtering | AdGuard Home | ASUS Vivobook |
+| NVR | Frigate (QuickSync decode) | UGREEN NAS |
+| Smart home | Home Assistant, Zigbee2MQTT, MQTT | Lenovo IdeaPad |
+| Heavy ML | PyTorch (planned fine-tuning) | Custom tower, RTX 4090 |
 
-## Stack
+## what's next
 
-```
-Languages:    Python
-Inference:    Ollama · FastAPI · PyTorch (planned)
-Homelab:      Home Assistant · Frigate NVR · Zigbee2MQTT · MQTT
-Observability: Prometheus · Grafana · Node Exporter
-Networking:   Tailscale · AdGuard Home · Docker · Portainer
-Hardware:     RTX 4090 · RTX 2060 · Intel N100 · M4 Pro
-```
-
----
-
-## Currently learning
-
-- Intro to Python — first formal CS course
-
----
-
-> Everything here runs on-prem. Privacy-first, fully local, no cloud dependency.
+- Fine-tuned CV model on the 4090 for person classification (resident vs. delivery vs. unknown)
+- Frigate snapshot → multimodal LLM visual reasoning
+- Voice interface via Makeblock Halocode
+- Human-in-the-loop approval for high-impact actions via Matrix
