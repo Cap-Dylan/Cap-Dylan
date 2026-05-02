@@ -11,7 +11,8 @@ Applied AI & IoT Engineering @ FIU · U.S. Navy veteran · Building privacy-firs
 
 🏠 Homelab — 6-node hybrid stack. Low-power 24/7 services + heavy CUDA on demand. Tailscale mesh, ZFS, multi-gig networking, UPS-backed.
 
-🎯 Focus areas
+🎯 Focus areas:
+
 AI agents · Local-first inference · Smart home / IoT · Cybersecurity · Edge ML
 
 🛠️ Stack I work in:
