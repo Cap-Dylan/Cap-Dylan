@@ -16,9 +16,13 @@ AI agents · Local-first inference · Smart home / IoT · Cybersecurity · Edge 
 
 🛠️ Stack I work in:
 Languages — Python, Bash, YAML, a bit of TypeScript
+
 Infra — Docker, GitHub Actions, Prometheus, Grafana, Tailscale, Home Assistant, Frigate
+
 ML / AI — Ollama, LoRA / QLoRA, ONNX, MobileNetV3 / EfficientNet-Lite, structured outputs
+
 Hardware I run — RTX 4090, RTX 2060, M4 Pro, Zigbee mesh
+
 📜 Credentials
 
 Google Cybersecurity Professional Certificate (SIEM, IDS, network security, Python security automation)
