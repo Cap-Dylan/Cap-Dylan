@@ -6,12 +6,15 @@ Applied AI & IoT Engineering @ FIU · U.S. Navy veteran · Building privacy-firs
 🔧 What I'm building
 
 🧠 Jarvis — multi-zone smart-home agent. LLM tool-use loop, Dockerized, CI/CD via GitHub Actions, Prometheus + Grafana with Matrix alerting. Model routing across llama3.2:3b and Qwen3.5:9B with structured-output enforcement (~88% JSON accuracy).
+
 📚 Tort Agent — local study assistant on Qwen3.6:35b-A3B via Ollama. Native tool calling against an Obsidian vault: morning brief, handwritten-note OCR, atomic concept extraction, weekly course summaries.
+
 🏠 Homelab — 6-node hybrid stack. Low-power 24/7 services + heavy CUDA on demand. Tailscale mesh, ZFS, multi-gig networking, UPS-backed.
 
 🎯 Focus areas
 AI agents · Local-first inference · Smart home / IoT · Cybersecurity · Edge ML
-🛠️ Stack I work in
+
+🛠️ Stack I work in:
 Languages — Python, Bash, YAML, a bit of TypeScript
 Infra — Docker, GitHub Actions, Prometheus, Grafana, Tailscale, Home Assistant, Frigate
 ML / AI — Ollama, LoRA / QLoRA, ONNX, MobileNetV3 / EfficientNet-Lite, structured outputs
