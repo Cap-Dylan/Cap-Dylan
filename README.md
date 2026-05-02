@@ -15,6 +15,7 @@ Applied AI & IoT Engineering @ FIU · U.S. Navy veteran · Building privacy-firs
 AI agents · Local-first inference · Smart home / IoT · Cybersecurity · Edge ML
 
 🛠️ Stack I work in:
+
 Languages — Python, Bash, YAML, a bit of TypeScript
 
 Infra — Docker, GitHub Actions, Prometheus, Grafana, Tailscale, Home Assistant, Frigate
