@@ -14,7 +14,7 @@ Applied AI & IoT Engineering @ FIU · U.S. Navy veteran · Building privacy-firs
 
 **[Vault Sync](https://github.com/Cap-Dylan/vault-sync)** — Local-first Obsidian vault sync across Mac, Windows, and UGREEN NAS via Syncthing + automated Apple Notes export via launchd.
 
-**[Homelab](https://github.com/Cap-Dylan/homelab_setup)** — 7-node hybrid infrastructure. Low-power 24/7 services (HA, light inference on RTX 2060) + heavy CUDA on demand (RTX 4090, 128GB DDR5) + portable dev monster (MBP M4Pro 24GB). Tailscale mesh, multi-gig networking, UPS-backed. Model selection driven by evaluation harnesses with committed results.
+**[Homelab](https://github.com/Cap-Dylan/homelab_setup)** — 7-node hybrid infrastructure. Low-power 24/7 services (HA, light inference on RTX 2060) + heavy CUDA on demand (RTX 4090, 128GB DDR5) + portable dev monster (MBP M4Pro 24GB 12/16/16). Tailscale mesh, multi-gig networking, UPS-backed. Model selection driven by evaluation harnesses with committed results.
 
 ---
 
