@@ -32,7 +32,7 @@ Agentic AI · Local-first inference · Smart home / IoT · Edge ML · Cybersecur
 
 **ML / AI** — Ollama, LoRA / QLoRA, ONNX, structured outputs, tool-calling agents, eval harness design
 
-**Hardware** — RTX 4090 (24GB), RTX 2060 (8GB), Apple M4 Pro, Zigbee mesh, multi-node Tailscale mesh
+**Hardware** — RTX 4090 (24GB), RTX 2060 (6GB), Apple M4 Pro, Zigbee mesh, multi-node Tailscale mesh
 
 ---
 
